@@ -4,6 +4,7 @@ import {HomeComponent} from "./components/home.component";
 export const allAppComponents = [HomeComponent];
 
 export const routes: Routes = [
+	{path: "about", commponent:AboutComponent},
 	{path: "", component: HomeComponent},
 	{path: "**", redirectTo: ""}
 ];
