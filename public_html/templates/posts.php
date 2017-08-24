@@ -54,4 +54,6 @@
 		</main>
 
 	</div>
+
+	<meow-footer></meow-footer>
 </div>
